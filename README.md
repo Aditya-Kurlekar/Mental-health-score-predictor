@@ -3,6 +3,13 @@
 ## Overview
 The Mental Health Score Predictor is a machine learning project that predicts a mental health score based on input data. The project includes a web interface that allows users to enter information and view a prediction.
 
+## Live Demo
+
+[Try the Mental Health Score Predictor](https://mental-health-score-predictor-zuem.onrender.com)
+
+Explore the application and test its mental health score prediction feature.
+
+
 ## Features
 - Predicts a mental health score using a trained machine learning model.
 - Provides a simple web interface for user interaction.
