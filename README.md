@@ -35,7 +35,7 @@ The Mental Health Score Predictor is a machine learning project that predicts a 
 
 ## Application Screenshot
 
-![Mental Health Score Predictor]("D:\Project\Mental_Health_Score\Preview.png)
+![Mental Health Score Predictor](mental-health-predictor.png)
 
 ## Disclaimer
 This project is intended for educational purposes only. It is not a substitute for professional mental health assessment or medical advice.
