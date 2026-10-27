@@ -201,10 +201,17 @@
   }
 
   function renderError(label, copy) {
-    errorLabelEl.textContent = label;
-    errorCopyEl.textContent = copy;
+    if (errorLabelEl) {
+        errorLabelEl.textContent = label || "";
+    }
+
+    if (errorCopyEl) {
+        errorCopyEl.textContent =
+            copy || "Something went wrong. Please try again.";
+    }
+
     showState("error");
-  }
+}
 
   // ---------------------------------------------------------
   // Parse FastAPI / Pydantic 422 error responses into
