@@ -2,7 +2,7 @@
   "use strict";
 
 
-  const API_BASE = "http://127.0.0.1:8000";
+  const API_BASE = "https://mental-health-score-predictor-kwrx.onrender.com";
 
   const form = document.getElementById("predict-form");
   const submitBtn = document.getElementById("submit-btn");
