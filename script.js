@@ -1,7 +1,8 @@
 (() => {
   "use strict";
 
-  const API_BASE = "https://mental-health-score-predictor-zuem.onrender.com";
+
+  const API_BASE = "http://127.0.0.1:8000";
 
   const form = document.getElementById("predict-form");
   const submitBtn = document.getElementById("submit-btn");
@@ -200,18 +201,18 @@
     showState("result");
   }
 
-  function renderError(label, copy) {
+    function renderError(label, copy) {
     if (errorLabelEl) {
-        errorLabelEl.textContent = label || "";
+      errorLabelEl.textContent = label || "";
     }
 
     if (errorCopyEl) {
-        errorCopyEl.textContent = copy || "Something went wrong. Please try again.";
+      errorCopyEl.textContent =
+        copy || "Something went wrong. Please try again.";
     }
 
     showState("error");
-}
-  
+  }
 
   // ---------------------------------------------------------
   // Parse FastAPI / Pydantic 422 error responses into
